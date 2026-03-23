@@ -31,13 +31,3 @@ llamafactory-cli webui
 ```bash
 GRADIO_SERVER_PORT=7860 llamafactory-cli webui
 ```
-
-### 4. 远程访问
-
-如果服务器没有公网直接暴露，可以用 SSH 端口转发在本地访问：
-
-```bash
-ssh -L 7860:localhost:7860 user@your-server-ip
-```
-
-然后在本地浏览器打开 `http://localhost:7860`。
