@@ -8,6 +8,7 @@ This project is a sandbox for testing and fine-tuning models using [LLaMA Factor
 - [在服务器上部署 LLaMA Factory](notes/server-deployment.md) - 源码安装、启动 Web UI、SSH 端口转发远程访问
 - [SFT](notes/sft.md) - 关键参数解释：数据集 size、epoch、batch size、gradient accumulation、step 计算、learning rate
 - [LoRA](notes/lora.md) - 原理、低秩矩阵 A/B、参数量对比示例、rank 和 alpha 参数详解
+- [DPO](notes/dpo.md) - 原理、数据集格式示例、与 SFT 的对比
 
 ## Project Structure
 
