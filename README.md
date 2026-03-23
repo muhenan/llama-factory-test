@@ -6,6 +6,7 @@ This project is a sandbox for testing and fine-tuning models using [LLaMA Factor
 
 - [在 Mac 上运行 LLaMA Factory](notes/mac-setup-and-workflow.md) - 环境配置、训练与推理工作流、模型管理
 - [在服务器上部署 LLaMA Factory](notes/server-deployment.md) - 源码安装、启动 Web UI、SSH 端口转发远程访问
+- [SFT](notes/sft.md) - 关键参数解释：数据集 size、epoch、batch size、gradient accumulation、step 计算、learning rate
 
 ## Project Structure
 
